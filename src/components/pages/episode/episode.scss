@@ -1,0 +1,30 @@
+.section {
+  padding-top: 2rem;
+}
+
+.episode-overview {
+  display: flex;
+  align-items: flex-start;
+}
+
+.episode-poster {
+  flex-shrink: 0;
+}
+
+
+.episode-data {
+  margin-left: 3rem;
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 670px) {
+  .episode-overview {
+    flex-direction: column;
+    align-items: center;
+}
+
+  .episode-data {
+    margin-left: 0;
+  }
+}
